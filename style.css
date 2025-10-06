@@ -31,6 +31,11 @@
     align-items: center;
     background-color: transparent;
     padding: 20px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; 
 }
 
 .nav-links {
@@ -55,15 +60,19 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /*Elemento de cada página*/
 
 .container-imagens {
-    min-height: 1000px; 
-    position: relative; 
+    position: relative;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
+    margin-top: 0; 
 }
 
 .camada-imagem {
