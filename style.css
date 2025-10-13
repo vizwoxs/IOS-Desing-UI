@@ -1,7 +1,7 @@
 /*Cores de navegação*/
 .nav-link.active.home-color {
   background-color: transparent;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .nav-link.active.azul-color {
@@ -56,23 +56,3 @@
 }
 
 /*Background de cada página*/
-
-body.bg-home {
-  background-image: url(Backgrounds/home.png);
-}
-
-body.bg-azul {
-  background-image: url(Backgrounds/blue.png);
-}
-
-body.bg-amarelo {
-  background-image: url(Backgrounds/yellow.png);
-}
-
-body.bg-verde {
-  background-image: url(Backgrounds/green.png);
-}
-
-body.bg-rosa {
-  background-image: url(Backgrounds/pink.png);
-}
