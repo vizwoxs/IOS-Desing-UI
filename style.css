@@ -1,0 +1,20 @@
+/*Cores de navegação*/
+
+.nav-link.active.azul-color {
+  background-color: #2a4f77;
+  color: white;
+}
+.nav-link.active.amarelo-color {
+  background-color: #52511a;
+  color: white;
+}
+
+.nav-link.active.verde-color {
+    background-color: #224018;
+    color: white;
+}
+
+.nav-link.active.rosa-color {
+  background-color: #712d59;
+  color: white;
+}
