@@ -54,62 +54,66 @@
     padding: 8px 12px;
     border-radius: 20px;
     transition: background-color 0.3s;
-}
-
-.nav-links li a:hover {
+  }
+  
+  .nav-links li a:hover {
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-
-/*Elemento de cada página*/
-
-.container-imagens {
+  }
+  
+  /*Elemento de cada página*/
+  
+  .container-imagens {
     position: relative;
     overflow: hidden;
     min-height: 100vh;
     margin-top: 0; 
-}
-
-.camada-imagem {
+  }
+  
+  .camada-imagem {
     position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover; 
-}
-
-#element-1 {
+  }
+  
+  #element-1 {
     z-index: 1;
-}
-
-#element-2 {
+  }
+  
+  #element-2 {
     z-index: 2;
-}
-
-#element-3 {
+  }
+  
+  #element-3 {
     z-index: 3;
-}
-
-#element-4 {
-  z-index: 4;
-}
-
-#element-5 {
-  z-index: 5;
-}
-
-#element-6 {
-  z-index: 6;
+  }
+  
+  #element-4 {
+    z-index: 4;
+  }
+  
+  #element-5 {
+    z-index: 5;
+  }
+  
+  #element-6 {
+    z-index: 6;
 }
 
 #element-7 {
   z-index: 7;
+}
+
+#element-8 {
+  z-index: 8;
 }
 
 .fade-in {
@@ -132,17 +136,50 @@ body {
 
 /* Estilo do cabeçalho com vídeo */
 .video-header {
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  overflow: hidden;
 }
 
 /* Faz o vídeo ocupar toda a tela */
 .video-banner {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    border: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none;
+}
+
+h1 {
+  position: absolute; 
+  top: 350px;          
+  left: 300px;         
+  font-size: 90px;    
+  font-weight: 750;   
+  color: #000;        
+  font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 430px; 
+  left: 300px; 
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+  position: absolute;
+  top: 480px; 
+  left: 300px; 
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: #6e6e6e;
+  font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
 }
